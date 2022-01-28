@@ -1,11 +1,11 @@
 import bcrypt from "bcrypt";
-import client from "../client";
+import client from "../../client";
 
 export default {
   Mutation: {
     createAccount: async (
       _,
-      { username, email, name, location, avatarURL, githubUsername, password }
+      { username, email, name, location, avatar, githubUsername, password }
     ) => {
       // check if username or email are already on DB.
       try {
@@ -34,7 +34,7 @@ export default {
             email,
             name,
             location,
-            avatarURL,
+            avatar,
             githubUsername,
             password: uglyPassword,
           },

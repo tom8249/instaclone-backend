@@ -4,9 +4,9 @@ Instaclone Backend.
 
 ## User:
 
-- [ ] Create Account - 2022 . 01. 26
-- [ ] See Profile
-- [ ] Login
+- [x] Create Account - 2022 . 01. 26
+- [x] See Profile
+- [x] Login
 - [ ] Edit Profile
 - [ ] Follow User
 - [ ] Unfollow User
